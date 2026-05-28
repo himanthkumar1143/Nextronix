@@ -1,0 +1,6 @@
+{
+  "name": "Nextronix",
+  "description": "Premium technical gadgets e-commerce store with user authenticated profiles, rich search filters, carts, order systems, and a fully functional admin management dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
