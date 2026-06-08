@@ -5,8 +5,7 @@ import { DB, verifyToken, supabase } from './src/server/db';
 
 async function startServer() {
   const app = express();
-  const PORT = 3000;
-
+  const PORT = process.env.PORT || 3000;
   app.use(express.json({ strict: false }));
   app.use((err: any, req: express.Request, res: express.Response, next: express.NextFunction) => {
     if (err instanceof SyntaxError && 'body' in err) {
